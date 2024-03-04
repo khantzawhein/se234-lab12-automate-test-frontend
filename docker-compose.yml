@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  backend: 
+    image: dto80/se234-lab12
+    ports: 
+      - 8901:8080
+  frontend:
+    image: khantzawhein/devops-lab11-frontend
+    ports:
+      - 8080:80
